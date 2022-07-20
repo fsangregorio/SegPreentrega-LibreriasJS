@@ -1,0 +1,357 @@
+body header nav ul li:hover, body footer .redes .iconitos:hover {
+  transition: 2s;
+  transform: scale(1.2);
+  animation-duration: 2s;
+  color: #919191; }
+
+body {
+  background-color: #e5e5e5;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 3rem; }
+  body header nav .barraNavegacion {
+    justify-content: center;
+    text-align: center;
+    justify-items: center; }
+  body header nav ul li {
+    margin: 0rem 1rem 0rem 3rem;
+    color: #e5e5e5;
+    font-weight: bold; }
+  body header nav .slogan {
+    color: #e5e5e5;
+    font-weight: 900; }
+  body hr {
+    height: 15px;
+    background-image: linear-gradient(90deg, #e5e5e5, black);
+    border: 0;
+    height: 1px;
+    margin: 0rem 1rem 0rem 1rem; }
+  body main {
+    padding-bottom: 2rem; }
+    body main h1 {
+      justify-content: center;
+      text-align: center;
+      justify-items: center;
+      color: black;
+      padding-top: 0.5rem;
+      font-size: 1.2rem; }
+    body main h2 {
+      color: black;
+      justify-content: center;
+      text-align: center;
+      justify-items: center;
+      font-size: 1rem;
+      padding: 0rem 5rem 0rem 5rem; }
+    body main p {
+      color: black;
+      justify-content: center;
+      text-align: center;
+      justify-items: center; }
+  body footer {
+    color: black;
+    position: absolute;
+    bottom: -2rem; }
+    body footer .derechos {
+      justify-content: center;
+      text-align: center;
+      justify-items: center;
+      padding-top: 0.5rem;
+      font-size: 0.7rem; }
+    body footer .redes {
+      justify-content: center;
+      text-align: center;
+      justify-items: center;
+      padding-bottom: 0.4rem; }
+      body footer .redes .iconitos {
+        margin: 0.5rem; }
+
+.mainPortfolios {
+  display: grid;
+  grid-template-areas: "portfolios portfolios"
+ "nuestrosTrabajos nuestrosTrabajos"
+ "portfoliosSubtituloA portfoliosSubtituloB"
+ "imgVizzentino imgModelo"; }
+
+.portfolios {
+  grid-area: portfolios; }
+
+.nuestrosTrabajos {
+  grid-area: nuestrosTrabajos; }
+
+.imgVizzentino {
+  grid-area: imgVizzentino;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem; }
+
+.imgModelo {
+  grid-area: imgModelo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem; }
+
+.portfoliosSubtituloA {
+  grid-area: portfoliosSubtituloA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5rem; }
+
+.portfoliosSubtituloB {
+  grid-area: portfoliosSubtituloB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5rem; }
+
+.imagen {
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  padding: 0.5rem;
+  max-width: 3rem; }
+
+.formulario {
+  padding: 1rem;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+.img-fluid {
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  max-height: 33;
+  max-width: auto;
+  padding: 2rem; }
+
+.imagineLogo {
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  max-height: auto;
+  max-width: 200px; }
+
+.centrarTodo {
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+
+#carouselExampleIndicators {
+  margin: 2rem; }
+
+.topnav a:hover {
+  border-bottom: 3px solid #e5e5e5;
+  transition: 0.5s;
+  transform: scale(1.1);
+  animation-duration: 0.5s;
+  color: #e5e5e5; }
+
+.topnav a.active {
+  border-bottom: 3px solid black; }
+
+  .popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+
+.botonCarrito{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.botoncitoCentrar{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.carrito {
+  position: relative;
+  color: #212529;
+  font-size: 30px;
+  padding: 2px;
+}
+
+.carritoCantidad {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 10px;
+  margin-top: 0.5rem;
+  color: black;
+  border-radius: 4px;
+  padding: 1px;
+}
+
+
+.tienda {
+  display: grid;
+  grid-template-columns: repeat(4, 223px);
+  gap: 30px;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .tienda {
+    grid-template-columns: repeat(2, 223px);
+  }
+}
+
+@media (max-width: 500px) {
+  .tienda {
+    grid-template-columns: repeat(1, 223px);
+  }
+}
+
+.carritoCompras {
+  display: grid;
+  grid-template-columns: repeat(1, 500px);
+  justify-content: center;
+  gap: 1rem;
+}
+
+.carrito-producto {
+  display: flex;
+  grid-template-columns: repeat(4, 10rem);
+  border: 0.1rem solid grey;
+  border-radius: 20px;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  
+}
+
+.nombre-precio-x {
+  width: 205px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0.1rem solid grey;  
+}
+
+.nombre-precio {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.fontFinal {
+  background-color: grey;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 3px;
+  padding: 3px 6px;
+}
+
+.carrito-producto-precio {
+  background-color: grey;
+  font-size: 1rem;
+  color: white;
+  border-radius: 3px;
+  padding: 3px 6px;
+}
+
+.producto {
+  border: 1px solid grey;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+
+.detalles {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+
+.precio-cantidad {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  font-size: 16px;
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+
+@media only screen and (max-width: 600px) {
+  .mediaPic {
+    width: 100vw; }
+  .mainPortfolios {
+    display: grid;
+    grid-template-areas: "portfolios"
+ "nuestrosTrabajos"
+ "portfoliosSubtituloA"
+ "imgVizzentino"
+ "portfoliosSubtituloB"
+ "imgModelo";
+    justify-content: center; }
+  .portfoliosSubtituloA {
+    grid-area: portfoliosSubtituloA; }
+  .portfoliosSubtituloB {
+    grid-area: portfoliosSubtituloB; }
+  .nuestrosTrabajos {
+    grid-area: nuestrosTrabajos; }
+  .imgVizzentino {
+    grid-area: imgVizzentino; }
+  .imgModelo {
+    grid-area: imgModelo; } }
